@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF09B04B243E35D4007B9CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09B04A243E35D4007B9CB2 /* AppDelegate.swift */; };
+		CF09B04D243E35D4007B9CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09B04C243E35D4007B9CB2 /* SceneDelegate.swift */; };
+		CF09B04F243E35D4007B9CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09B04E243E35D4007B9CB2 /* ViewController.swift */; };
+		CF09B052243E35D4007B9CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF09B050243E35D4007B9CB2 /* Main.storyboard */; };
+		CF09B054243E35D9007B9CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF09B053243E35D9007B9CB2 /* Assets.xcassets */; };
+		CF09B057243E35D9007B9CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF09B055243E35D9007B9CB2 /* LaunchScreen.storyboard */; };
+		CF09B062243E35D9007B9CB2 /* GPS_Program_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09B061243E35D9007B9CB2 /* GPS_Program_7Tests.swift */; };
+		CF09B06D243E35D9007B9CB2 /* GPS_Program_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09B06C243E35D9007B9CB2 /* GPS_Program_7UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF09B05E243E35D9007B9CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF09B03F243E35D4007B9CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF09B046243E35D4007B9CB2;
+			remoteInfo = "GPS Program 7";
+		};
+		CF09B069243E35D9007B9CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF09B03F243E35D4007B9CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF09B046243E35D4007B9CB2;
+			remoteInfo = "GPS Program 7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF09B047243E35D4007B9CB2 /* GPS Program 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Program 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF09B04A243E35D4007B9CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF09B04C243E35D4007B9CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF09B04E243E35D4007B9CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF09B051243E35D4007B9CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF09B053243E35D9007B9CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF09B056243E35D9007B9CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF09B058243E35D9007B9CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09B05D243E35D9007B9CB2 /* GPS Program 7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS Program 7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF09B061243E35D9007B9CB2 /* GPS_Program_7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_Program_7Tests.swift; sourceTree = "<group>"; };
+		CF09B063243E35D9007B9CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09B068243E35D9007B9CB2 /* GPS Program 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS Program 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF09B06C243E35D9007B9CB2 /* GPS_Program_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_Program_7UITests.swift; sourceTree = "<group>"; };
+		CF09B06E243E35D9007B9CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF09B044243E35D4007B9CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09B05A243E35D9007B9CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09B065243E35D9007B9CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF09B03E243E35D4007B9CB2 = {
+			isa = PBXGroup;
+			children = (
+				CF09B049243E35D4007B9CB2 /* GPS Program 7 */,
+				CF09B060243E35D9007B9CB2 /* GPS Program 7Tests */,
+				CF09B06B243E35D9007B9CB2 /* GPS Program 7UITests */,
+				CF09B048243E35D4007B9CB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF09B048243E35D4007B9CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF09B047243E35D4007B9CB2 /* GPS Program 7.app */,
+				CF09B05D243E35D9007B9CB2 /* GPS Program 7Tests.xctest */,
+				CF09B068243E35D9007B9CB2 /* GPS Program 7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF09B049243E35D4007B9CB2 /* GPS Program 7 */ = {
+			isa = PBXGroup;
+			children = (
+				CF09B04A243E35D4007B9CB2 /* AppDelegate.swift */,
+				CF09B04C243E35D4007B9CB2 /* SceneDelegate.swift */,
+				CF09B04E243E35D4007B9CB2 /* ViewController.swift */,
+				CF09B050243E35D4007B9CB2 /* Main.storyboard */,
+				CF09B053243E35D9007B9CB2 /* Assets.xcassets */,
+				CF09B055243E35D9007B9CB2 /* LaunchScreen.storyboard */,
+				CF09B058243E35D9007B9CB2 /* Info.plist */,
+			);
+			path = "GPS Program 7";
+			sourceTree = "<group>";
+		};
+		CF09B060243E35D9007B9CB2 /* GPS Program 7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF09B061243E35D9007B9CB2 /* GPS_Program_7Tests.swift */,
+				CF09B063243E35D9007B9CB2 /* Info.plist */,
+			);
+			path = "GPS Program 7Tests";
+			sourceTree = "<group>";
+		};
+		CF09B06B243E35D9007B9CB2 /* GPS Program 7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF09B06C243E35D9007B9CB2 /* GPS_Program_7UITests.swift */,
+				CF09B06E243E35D9007B9CB2 /* Info.plist */,
+			);
+			path = "GPS Program 7UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF09B046243E35D4007B9CB2 /* GPS Program 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF09B071243E35D9007B9CB2 /* Build configuration list for PBXNativeTarget "GPS Program 7" */;
+			buildPhases = (
+				CF09B043243E35D4007B9CB2 /* Sources */,
+				CF09B044243E35D4007B9CB2 /* Frameworks */,
+				CF09B045243E35D4007B9CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Program 7";
+			productName = "GPS Program 7";
+			productReference = CF09B047243E35D4007B9CB2 /* GPS Program 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF09B05C243E35D9007B9CB2 /* GPS Program 7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF09B074243E35D9007B9CB2 /* Build configuration list for PBXNativeTarget "GPS Program 7Tests" */;
+			buildPhases = (
+				CF09B059243E35D9007B9CB2 /* Sources */,
+				CF09B05A243E35D9007B9CB2 /* Frameworks */,
+				CF09B05B243E35D9007B9CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF09B05F243E35D9007B9CB2 /* PBXTargetDependency */,
+			);
+			name = "GPS Program 7Tests";
+			productName = "GPS Program 7Tests";
+			productReference = CF09B05D243E35D9007B9CB2 /* GPS Program 7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF09B067243E35D9007B9CB2 /* GPS Program 7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF09B077243E35D9007B9CB2 /* Build configuration list for PBXNativeTarget "GPS Program 7UITests" */;
+			buildPhases = (
+				CF09B064243E35D9007B9CB2 /* Sources */,
+				CF09B065243E35D9007B9CB2 /* Frameworks */,
+				CF09B066243E35D9007B9CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF09B06A243E35D9007B9CB2 /* PBXTargetDependency */,
+			);
+			name = "GPS Program 7UITests";
+			productName = "GPS Program 7UITests";
+			productReference = CF09B068243E35D9007B9CB2 /* GPS Program 7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF09B03F243E35D4007B9CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alexis Garia";
+				TargetAttributes = {
+					CF09B046243E35D4007B9CB2 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CF09B05C243E35D9007B9CB2 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CF09B046243E35D4007B9CB2;
+					};
+					CF09B067243E35D9007B9CB2 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CF09B046243E35D4007B9CB2;
+					};
+				};
+			};
+			buildConfigurationList = CF09B042243E35D4007B9CB2 /* Build configuration list for PBXProject "GPS Program 7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF09B03E243E35D4007B9CB2;
+			productRefGroup = CF09B048243E35D4007B9CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF09B046243E35D4007B9CB2 /* GPS Program 7 */,
+				CF09B05C243E35D9007B9CB2 /* GPS Program 7Tests */,
+				CF09B067243E35D9007B9CB2 /* GPS Program 7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF09B045243E35D4007B9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09B057243E35D9007B9CB2 /* LaunchScreen.storyboard in Resources */,
+				CF09B054243E35D9007B9CB2 /* Assets.xcassets in Resources */,
+				CF09B052243E35D4007B9CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09B05B243E35D9007B9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09B066243E35D9007B9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF09B043243E35D4007B9CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09B04F243E35D4007B9CB2 /* ViewController.swift in Sources */,
+				CF09B04B243E35D4007B9CB2 /* AppDelegate.swift in Sources */,
+				CF09B04D243E35D4007B9CB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09B059243E35D9007B9CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09B062243E35D9007B9CB2 /* GPS_Program_7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09B064243E35D9007B9CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09B06D243E35D9007B9CB2 /* GPS_Program_7UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF09B05F243E35D9007B9CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF09B046243E35D4007B9CB2 /* GPS Program 7 */;
+			targetProxy = CF09B05E243E35D9007B9CB2 /* PBXContainerItemProxy */;
+		};
+		CF09B06A243E35D9007B9CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF09B046243E35D4007B9CB2 /* GPS Program 7 */;
+			targetProxy = CF09B069243E35D9007B9CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF09B050243E35D4007B9CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF09B051243E35D4007B9CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF09B055243E35D9007B9CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF09B056243E35D9007B9CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF09B06F243E35D9007B9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF09B070243E35D9007B9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF09B072243E35D9007B9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N4G8Y49M;
+				INFOPLIST_FILE = "GPS Program 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexisgaria.com.GPS-Program-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF09B073243E35D9007B9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N4G8Y49M;
+				INFOPLIST_FILE = "GPS Program 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexisgaria.com.GPS-Program-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF09B075243E35D9007B9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N4G8Y49M;
+				INFOPLIST_FILE = "GPS Program 7Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexisgaria.com.GPS-Program-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Program 7.app/GPS Program 7";
+			};
+			name = Debug;
+		};
+		CF09B076243E35D9007B9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N4G8Y49M;
+				INFOPLIST_FILE = "GPS Program 7Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexisgaria.com.GPS-Program-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Program 7.app/GPS Program 7";
+			};
+			name = Release;
+		};
+		CF09B078243E35D9007B9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N4G8Y49M;
+				INFOPLIST_FILE = "GPS Program 7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexisgaria.com.GPS-Program-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPS Program 7";
+			};
+			name = Debug;
+		};
+		CF09B079243E35D9007B9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N4G8Y49M;
+				INFOPLIST_FILE = "GPS Program 7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexisgaria.com.GPS-Program-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPS Program 7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF09B042243E35D4007B9CB2 /* Build configuration list for PBXProject "GPS Program 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF09B06F243E35D9007B9CB2 /* Debug */,
+				CF09B070243E35D9007B9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF09B071243E35D9007B9CB2 /* Build configuration list for PBXNativeTarget "GPS Program 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF09B072243E35D9007B9CB2 /* Debug */,
+				CF09B073243E35D9007B9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF09B074243E35D9007B9CB2 /* Build configuration list for PBXNativeTarget "GPS Program 7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF09B075243E35D9007B9CB2 /* Debug */,
+				CF09B076243E35D9007B9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF09B077243E35D9007B9CB2 /* Build configuration list for PBXNativeTarget "GPS Program 7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF09B078243E35D9007B9CB2 /* Debug */,
+				CF09B079243E35D9007B9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF09B03F243E35D4007B9CB2 /* Project object */;
+}
